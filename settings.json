@@ -1,6 +1,22 @@
 {
+    // Path dependents
+    "sonarlint.ls.javaHome": "/usr/lib/jvm/java-21-openjdk-amd64",
+    //theme related
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "editor.semanticHighlighting.enabled": true,
+    "terminal.integrated.minimumContrastRatio": 1,
+    "window.titleBarStyle": "custom",
+    //git
+    "git.enableSmartCommit": true,
     "git.autofetch": true,
+    //editor & file actions
     "explorer.confirmDelete": false,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
     "files.exclude": {
         "**/*.aux": true,
         "**/*.bbl": true,
@@ -17,19 +33,5 @@
         "**/*.synctex.gz": true,
         "**/*.toc": true,
         "**/*.xdv": true
-    },
-    "editor.wordWrap": "on",
-    "files.autoSave": "afterDelay",
-    "editor.formatOnSave": true,
-    "files.autoSaveWhenNoErrors": true,
-    "latex-workshop.formatting.latex": "latexindent",
-    "git.enableSmartCommit": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Catppuccin Mocha",
-    // we try to make semantic highlighting look good
-    "editor.semanticHighlighting.enabled": true,
-    // prevent VSCode from modifying the terminal colors
-    "terminal.integrated.minimumContrastRatio": 1,
-    // make the window's titlebar use the workbench colors
-    "window.titleBarStyle": "custom",
+    }
 }

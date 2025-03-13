@@ -9,7 +9,9 @@
         "mvllow.rose-pine",
         "SonarSource.sonarlint-vscode",
         "edwinhuish.better-comments-next",
-        "foxundermoon.shell-format"
+        "foxundermoon.shell-format",
+        "mk12.better-git-line-blame",
+        "usernamehw.errorlens",
     ],
     // List of extensions recommended by VSCodium that should not be recommended for users of this workspace.
     "unwantedRecommendations": []
