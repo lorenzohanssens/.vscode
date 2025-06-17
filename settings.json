@@ -1,6 +1,6 @@
 {
     // Path dependents
-    "sonarlint.ls.javaHome": "/usr/lib/jvm/java-21-openjdk-amd64",
+    "sonarlint.ls.javaHome": "/usr/lib/jvm/default-java",
     //theme related
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
